@@ -1,3 +1,19 @@
+Axial Recap Notes
+
+[Gource](http://code.google.com/p/gource/):
+
+	cd /Users/daniel/Code/Axial/SubversionSRED/ekotest
+	svn log -r 1:HEAD --xml --verbose --quiet > ekotest-log.xml
+
+	gource --key --seconds-per-day 1 --camera-mode track ekotest-log.xml
+
+	# or to make a movie...
+	brew install --use-clang ffmpeg
+
+	gource --key --seconds-per-day 1 --camera-mode track -1280x720 -o gource.ppm ekotest-log.xml
+	ffmpeg -y -r 60 -f image2pipe -vcodec ppm -i gource.ppm -vcodec libx264 -preset ultrafast -crf 1 -threads 0 -bf 0 gource.mp4
+
+
 # reveal.js
 
 A framework for easily creating beautiful presentations using HTML. [Check out the live demo](http://lab.hakim.se/reveal-js/).
