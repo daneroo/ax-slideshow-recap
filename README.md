@@ -11,8 +11,11 @@ Axial Recap Notes
 	brew install --use-clang --with-libvpx ffmpeg
 
 	gource --key --seconds-per-day 1 -t 120 --camera-mode track -640x400 -o gource.ppm ekotest-log.xml
+
 	# webm
 	ffmpeg -y -r 60 -f image2pipe -vcodec ppm -i gource.ppm -vcodec libvpx -b 20000K gource.webm
+
+	# Note mp4 is way too big, used handbrake to re-encode webm
 	# mp4
 	ffmpeg -y -r 60 -f image2pipe -vcodec ppm -i gource.ppm -vcodec libx264 -b 20000K gource.mp4
 	# ffmpeg -y -r 60 -f image2pipe -vcodec ppm -i gource.ppm -vcodec libx264 -preset ultrafast -crf 1 -threads 0 -bf 0 gource.mp4
