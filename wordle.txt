@@ -1,0 +1,28 @@
+            <li>EkoConcours - Editeur</li>
+            <li>JSLoader/JSUnit</li>
+            <li>In place editor with 'gabarit'</li>
+            <li>Image uploader</li>
+            <li>Integration Facebook</li>
+            <li>jEko - JayRock/JSON_RPC php</li>
+            <li>iPhone - Nav - iGabarit</li>
+            <li>Editeur de Gabrait WYSIWYG</li>
+            <li>Module Resources (EkoCard)</li>
+            <li>Mongo - Build system - Unicode Normalization - Phar Archives</li>
+            <li>Hudson Integration Server</li>
+            <li>DocClient,DocAdmin as phar</li>
+            <li>Maven - php</li>
+            <li>QuestServer App</li>
+            <li>JavascriptMVC</li>
+            <li>Orthomobile Sencha</li>
+            <li>Eliminate Maven</li>
+            <li>JMVC - Eko Render - paging service</li>
+            <li>JMVC - EkoCard - production</li>
+            <li>Selenium (+Bromine) on Jenkins</li>
+            <li>vagrant ekoform</li>
+            <li>Capistrano deployment</li>
+            <li>Bromine from jenkins, stup ci-ekoform,ci-docserver,ci-ekocard</li>
+            <li>Geospatial lookup + indexing</li>
+            <li>vagrant - EC2 - Chef</li>
+            <li>PoolExpert - Couchdb - MapReduce Experiment</li>
+            <li>JQuery Mobile (and template)</li>
+            <li>Dashboard</li>
